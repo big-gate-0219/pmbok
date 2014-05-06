@@ -1,0 +1,29 @@
+table {
+    border-top:1px solid #663300;
+    border-left:1px solid #663300;
+    border-collapse:cllapse;
+    border-spacing:0;
+    background-color:#ffffff;
+    empty-cells:show;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table tr th {
+    border-right:1px solid #663300;
+    border-bottom:1px solid #664400;
+    color:#330000;
+    background-color: #996633;
+}
+
+table tr td {
+    border-right:1px solid #663300;
+    border-bottom:1px solid #663300;
+    padding:0.3em 1em;
+    vertical-align: top;
+}
+
+ul {
+   margin: 0 0 0 1em;
+   padding: 0;   	   
+}
