@@ -98,7 +98,6 @@ table {
     border-spacing:0;
     background-color:#ffffff;
     empty-cells:show;
-    white-space: nowrap;
 }
 
 table caption {
@@ -119,18 +118,18 @@ table tr th {
 table tr td {
     border-right:1px solid #663300;
     border-bottom:1px solid #663300;
-    padding:0.3em 1em;
+    padding:0.3em 0.3em;
     vertical-align: top;
     text-align: left;
 }
 
 ul {
-    margin: 0 0 0 1em;
+    margin: 0 0 0 0;
     padding: 0;
 }
 
 ul li {
-    margin-left: 10px;
+    margin-left: 0 0 0 0;
     padding-left: 15px;
     background-image: url("../image/arrow.gif");
     background-repeat: no-repeat;
