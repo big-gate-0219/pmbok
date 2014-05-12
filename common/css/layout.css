@@ -129,6 +129,14 @@ ul {
     padding: 0;
 }
 
+ul li {
+    margin-left: 10px;
+    padding-left: 15px;
+    background-image: url("../image/arrow.gif");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
 p {
     margin:0 0 0 0em;
 }
