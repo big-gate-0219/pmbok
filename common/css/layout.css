@@ -145,3 +145,16 @@ div.indent2 {
     padding-top: 0;
     padding-left: 30px;
 }
+
+
+	
+html>/**/body .nest,
+html>/**/body .nest ol{
+counter-reset:nest;
+list-style-type:none;
+padding-left:1em;
+}
+.nest li:before{
+content:counters(nest, ".") ". ";
+counter-increment:nest;
+}
