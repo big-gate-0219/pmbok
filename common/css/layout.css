@@ -158,3 +158,20 @@ padding-left:1em;
 content:counters(nest, ".") ". ";
 counter-increment:nest;
 }
+
+
+div#footer-menu {
+    text-align: center;
+}
+
+div#footer-menu ul {
+    display: inline;
+    border-left: 1px solid #000000;
+}
+
+div#footer-menu li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #000000;
+}

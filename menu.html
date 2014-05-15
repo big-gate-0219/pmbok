@@ -1,5 +1,3 @@
-<script type="text/javascript" src="./common/script/jquery.hoverIntent.minified.js"></script>
-<script type="text/javascript" src="./common/script/jquery.dcmegamenu.1.3.3.js"></script>
 <script type="text/javascript">
 $(document).ready(function($){
   $('#menu').dcMegaMenu({
@@ -7,13 +5,20 @@ $(document).ready(function($){
     speed: 'fast',
     effect: 'fade',
   });
+
+  $(".menu-jump").on('click', function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    location.href = 'file:///C:/Users/p0272427/Dropbox/GitHub/pmbok/' + $(this).attr('href');
+    return false;
+  });
 });
 </script>
 
 <div class="blue">
   <ul id="menu" class="mega-menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="./pmbok/index.html">PMBOK 5th</a>
+    <li><a href="index.html" class="menu-jump">Home</a></li>
+    <li><a href="pmbok/index.html" class="menu-jump">PMBOK 5th</a>
       <ul>
 	<li><a href="#">PMBOK概要</a>
 	  <ul>
@@ -54,17 +59,17 @@ $(document).ready(function($){
 	</li>
       </ul>
     </li>
-    <li><a href="./dad/index.html">Desciplined Agile Delivery</a>
+    <li><a href="dad/index.html" class="menu-jump">Desciplined Agile Delivery</a>
       <ul>
-	<li><a href="#">Desciplined Agile Delivery</a>
+	<li><a href="#">DAD概要</a>
 	  <ul>
-	    <li><a href="#">はじめに</a></li>
-	    <li><a href="#">Offer 5</a></li>
-	    <li><a href="#">Offer 6</a></li>
-	    <li><a href="#">Offer 7</a></li>
+	    <li><a href="#">DADとは</a></li>
+	    <li><a href="#">DADのライフサイクル</a></li>
+	    <li><a href="#">権利、責務、役割</a></li>
+	    <li><a href="#">DADチーム</a></li>
 	  </ul>
 	</li>
-	<li><a href="#">Reduced Price</a>
+	<li><a href="#">方向付けフェーズ</a>
 	  <ul>
 	    <li><a href="#">Offer 4</a></li>
 	    <li><a href="#">Offer 5</a></li>
@@ -72,12 +77,12 @@ $(document).ready(function($){
 	    <li><a href="#">Offer 7</a></li>
 	  </ul>
 	</li>
-	<li><a href="#">Clearance Items</a>
+	<li><a href="#">構築フェーズ</a>
 	  <ul>
 	    <li><a href="#">Offer 9</a></li>
 	  </ul>
 	</li>
-	<li class="menu-item-129"><a href="#">Ex-Stock</a>
+	<li><a href="#">移行フェーズ</a>
 	  <ul>
 	    <li><a href="#">Offer 10</a></li>
 	    <li><a href="#">Offer 11</a></li>
@@ -85,37 +90,14 @@ $(document).ready(function($){
 	    <li><a href="#">Offer 13</a></li>
 	  </ul>
 	</li>
-      </ul>
-    </li>
-    <li><a href="#">About Us</a>
-      <ul>
-	<li><a href="#">About Page 1</a></li>
-	<li><a href="#">About Page 2</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Services</a>
-      <ul>
-	<li><a href="#">Service 1</a>
+	<li><a href="#">その他</a>
 	  <ul>
-	    <li><a href="#">Service Detail A</a></li>
-	    <li><a href="#">Service Detail B</a></li>
+	    <li><a href="#">準備すべき標準や規則など</a></li>
 	  </ul>
 	</li>
-	<li><a href="#">Service 2</a>
-	  <ul>
-	    <li><a href="#">Service Detail C</a></li>
-	  </ul>
-	</li>
-	<li><a href="#">Service 3</a>
-	  <ul>
-	    <li><a href="#">Service Detail D</a></li>
-	    <li><a href="#">Service Detail E</a></li>
-	    <li><a href="#">Service Detail F</a></li>
-	  </ul>
-	</li>
-	<li><a href="#">Service 4</a></li>
+	
       </ul>
+
     </li>
-    <li><a href="#">Contact us</a></li>
   </ul>
 </div>
