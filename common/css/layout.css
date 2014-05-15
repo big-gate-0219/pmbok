@@ -108,17 +108,16 @@ table caption {
 }
 
 table tr th {
-    border-right:1px solid #663300;
-    border-bottom:1px solid #664400;
-    color:#330000;
-    background-color: #996633;
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+    background-color: #00b6b3;
     vertical-align: top;
     text-align: left;
 }
 
 table tr td {
-    border-right:1px solid #663300;
-    border-bottom:1px solid #663300;
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
     padding:0.3em 0.3em;
     vertical-align: top;
     text-align: left;
@@ -132,9 +131,7 @@ ul {
 ul li {
     margin-left: 0 0 0 0;
     padding-left: 15px;
-    background-image: url("../image/arrow.gif");
-    background-repeat: no-repeat;
-    background-position: left center;
+    background: url("../image/arrow.gif") no-repeat 5px 8px;
 }
 
 p {
