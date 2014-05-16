@@ -172,3 +172,21 @@ div#footer-menu li {
     padding-right: 10px;
     border-right: 1px solid #000000;
 }
+
+div.text {
+    text-indent: 1em;   
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd{
+    margin-left : 1em;
+    padding-bottom: 1em;
+}
