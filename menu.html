@@ -1,5 +1,6 @@
 <script type="text/javascript">
-$(document).ready(function($){
+<!--
+  $(document).ready(function($){
   $('#menu').dcMegaMenu({
     rowItems: '23',
     speed: 'fast',
@@ -7,18 +8,23 @@ $(document).ready(function($){
   });
 
   $(".menu-jump").on('click', function(event) {
-    event.preventDefault();
-    event.stopPropagation();
-    location.href = 'file:///C:/Users/p0272427/Dropbox/GitHub/pmbok/' + $(this).attr('href');
-    return false;
+    var url = document.URL;
+    if (url.match(/^file:/)) {
+      event.preventDefault();
+      event.stopPropagation();
+      location.href = url.substring(0, url.indexOf("pmbok") + 5) + $(this).attr('href');
+      return false;
+    }
+    return true;
   });
 });
+-->
 </script>
 
 <div class="blue">
   <ul id="menu" class="mega-menu">
-    <li><a href="index.html" class="menu-jump">Home</a></li>
-    <li><a href="pmbok/index.html" class="menu-jump">PMBOK 5th</a>
+    <li><a href="/index.html" class="menu-jump">Home</a></li>
+    <li><a href="/pmbok/index.html" class="menu-jump">PMBOK 5th</a>
       <ul>
 	<li><a href="#">PMBOK概要</a>
 	  <ul>
@@ -59,14 +65,14 @@ $(document).ready(function($){
 	</li>
       </ul>
     </li>
-    <li><a href="dad/index.html" class="menu-jump">Desciplined Agile Delivery</a>
+    <li><a href="/dad/index.html" class="menu-jump">Desciplined Agile Delivery</a>
       <ul>
-	<li><a href="dad/outline/index.html" class="menu-jump">DAD概要</a>
+	<li><a href="/dad/outline/index.html" class="menu-jump">DAD概要</a>
 	  <ul>
-	    <li><a href="dad/outline/WhatIsDad.html" class="menu-jump">DADとは</a></li>
-	    <li><a href="dad/outline/lifecycle.html" class="menu-jump">DADのライフサイクル</a></li>
-	    <li><a href="dad/outline/role.html" class="menu-jump">権利、責務、役割</a></li>
-	    <li><a href="dad/outline/dadteam.html" class="menu-jump">DADチーム</a></li>
+	    <li><a href="/dad/outline/WhatIsDad.html" class="menu-jump">DADとは</a></li>
+	    <li><a href="/dad/outline/lifecycle.html" class="menu-jump">DADのライフサイクル</a></li>
+	    <li><a href="/dad/outline/role.html" class="menu-jump">権利、責務、役割</a></li>
+	    <li><a href="/dad/outline/dadteam.html" class="menu-jump">DADチーム</a></li>
 	  </ul>
 	</li>
 	<li><a href="#" class="menu-jump">方向付けフェーズ</a>
