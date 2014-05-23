@@ -85,9 +85,10 @@ h3 {
 
 h4 {
     color: #06c;
-    line-height: 24m;
     margin-left: 10px;
+    margin-bottom: 0;
     padding-left: 20px;
+    padding-bottom: 0;
     background-image: url("../image/dot-blue.gif");
     background-repeat: no-repeat;
     background-position: left center;
@@ -183,13 +184,16 @@ div.text {
 }
 
 
+dl {
+    margin-top: 0;
+    padding-top: 0;
+}
 dl dt {
     font-weight: bold;
 }
 
 dl dd{
     margin-left : 1em;
-    padding-bottom: 1em;
 }
 
 img {
