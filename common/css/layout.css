@@ -226,3 +226,9 @@ img {
     border: solid 1px #000000;
     padding: 4ps;
 }
+
+div.topcontrol {
+    width: 48px;
+    height: 48px;
+    background-image: url("../image/scrollup.png");
+}
