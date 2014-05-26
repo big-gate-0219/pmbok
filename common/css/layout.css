@@ -175,8 +175,31 @@ div#footer-menu li {
     border-right: 1px solid #000000;
 }
 
-div.text {
+.text {
     text-indent: 1em;   
+}
+
+div.box{
+    border: 1px solid #13cb00;
+    margin-bottom: 10px;
+    padding-top : 0px;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+}
+
+div.box>strong {
+    line-height: 22px;
+    background-color: #13cb00;
+}
+
+div.box>dl {
+    padding-left: 20px;
+}
+
+div.box>dl>table {
+    padding-left: 0px;
+    margin-left: 20px;
 }
 
 .nowrap {
