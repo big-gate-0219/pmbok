@@ -5,7 +5,8 @@
     <link rel="stylesheet" type="text/css" href="../../common/css/dcmegamenu.css" />
     <link rel="stylesheet" type="text/css" href="../../common/css/skins/blue.css" />
     <link rel="stylesheet" type="text/css" href="../../common/css/layout.css" />
-    <script type="text/javascript" src="../../common/script/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="../../common/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../../common/script/jquery-ui-1.10.4.custom.min.js"></script>
     <script type="text/javascript" src="../../common/script/jquery.hoverIntent.minified.js"></script>
     <script type="text/javascript" src="../../common/script/jquery.dcmegamenu.1.3.3.js"></script>
     <script type="text/javascript" src="../../common/script/scrolltopcontrol.js"></script>
@@ -14,6 +15,15 @@
         $('#header-area').load('../../header.html');
     	$('#footer-area').load('../../footer.html');
 	$('#menu-area').load('../../menu.html');
+
+
+        $("div.title", "div.toggle-box").addClass('close');
+        $("div.title", "div.toggle-box").click(function(){
+          $(this).parent().children(".content").toggle("blind", "up", 200);
+          $(this).toggleClass('open');
+          $(this).toggleClass('close');
+        });
+        $("div.content", "div.toggle-box").css('display', 'none');
       });
     </script>
   </head>
@@ -83,15 +93,16 @@
 	  個々人はひとつ以上の役割を担い、時期に応じて役割を切り替えることできます。
 	</div>
 
-	<div class="box">
+	<div>
 	  <strong>主な役割</strong>
-	  <dl>
-	    <dt>利害関係者</dt>
-	    <dd class="text">
-	      利害関係者とは、ソリューションの成果によって影響を受ける人々の事を指します。DADでは、利害関係者を『Outside In Software Development』の４つのカテゴリを採用して分類化しています。
-	    </dd>
-	    <table>
-	      <thead>
+	  <div class="toggle-box">
+	    <div class="title">利害関係者</div>
+	    <div class="content">
+	      <div class="text">
+		利害関係者とは、ソリューションの成果によって影響を受ける人々の事を指します。DADでは、利害関係者を『Outside In Software Development』の４つのカテゴリを採用して分類化しています。
+	      </div>
+	      <table>
+		<thead>
 		<tr>
 		  <th>カテゴリ</th>
 		  <th>説明</th>
@@ -128,14 +139,16 @@
 		</tr>
 	      </tbody>
 	    </table>
-	  </dl>
+	    </div>
+	  </div>
 	</div>
 
-	<div class="box">
+	<div>
 	  <strong>主な役割(チームの役割)</strong>
-	  <dl>
-	    <dt>プロダクトオーナー</dt>
-	    <dd>
+
+	  <div class="toggle-box">
+	    <div class="title">プロダクトオーナー</div>
+	    <div class="content">
 	      <div class="text">
 		プロダクトオーナーは、利害関係者のニーズや要望をDADチームに伝えるチームメンバーです。DADチームに対しては、ソリューションに関するニーズや要望を明確にし、構築するワークアイテムの優先順位を見直す責務を持ちます。利害関係者に対しては、DADチームが構築した成果を利害関係者に提示したり、プロジェクトの状況を報告したりする責務を持ちます。
 	      </div>
@@ -176,10 +189,12 @@
 		  <li>プロダクトオーナーは交渉に長けている必要がある。</li>
 		</ul>
 	      </div>
-	    </dd>
+	    </div>
+	  </div>
 
-	    <dt>チームリーダー</dt>
-	    <dd>
+	  <div class="toggle-box">
+	    <div class="title">チームリーダー</div>
+	    <div class="content">
 	      <div class="text">
 		チームリーダは、ソリューションの構築が成功するようにDADチームを導く役割です。チームがプロダクトオーナーにしたコミットメントやイテレーションのゴールの達成に集中できる様にします。また、チームのコミュニケーションを促進し、自己最適化を助け、必要なリーソースを用意し、タイムリーに課題を取り除くような活動を行います。
 	      </div>
@@ -208,10 +223,12 @@
 		  <li></li>
 		</ul>
 	      </div>
-	    </dd>
+	    </div>
+	  </div>
 
-	    <dt>アーキテクチャーオーナー</dt>
-	    <dd>
+	  <div class="toggle-box">
+	    <div class="title">アーキテクチャーオーナー</div>
+	    <div class="content">
 	      <div class="text">
 		アーキテクチャーオーナーは、ソリューションのデザインを行う役割です。
 	      </div>
@@ -240,10 +257,12 @@
 		  <li>金メッキのアーキテクチャー</li>
 		</ul>
 	      </div>
-	    </dd>
+	    </div>
+	  </div>
 
-	    <dt>チームメンバー</dt>
-	    <dd>
+	  <div class="toggle-box">
+	    <div class="title">チームメンバー</div>
+	    <div class="content">
 	      <div class="text">
 	      チームメンバーは、ソリューションの構築に注力する役割です。チームメンバーは、ビジネスの分析、アーキテクチャの分析、設計、実装、テスト、計画、見積もりなど様々な活動を行います。DADではチームメンバーが多能工となることを求めていますが、全員がすべての活動を行える必要はなく、ビジネスの分析や見積もりが得意なメンバーであったり、アーキテクチャの分析や実装が得意なメンバーであったりが連携しソリューションの構築をおこなっていけられればよいと考えています。
 	      </div>
@@ -257,39 +276,50 @@
 		  <li>ほかのチームメンバーと協力し効率的にソリューションを構築する。</li>
 		</ul>
 	      </div>
-	    </dd>
-	  </dl>
+	    </div>
+	  </div>
 	</div>
 
-	<div class="box">
+	<div>
 	  <strong>補助的役割</strong>
-	  <dl>
-	    <dt>ドメインエキスパート</dt>
-	    <dd class="text">
-	      DADチームの支援のために、ドメインの専門家を連れてくることがある。これは、業務ドメインの専門化であったり、税や法務などの専門家であったりする。ドメインエキスパートは、利害関係者に分類される。
-	    </dd>
-	    
-	    <dt>スペシャリスト</dt>
-	    <dd class="text">
-	      アジャイルチームがスケールアップする場合や、アジャイルを始めたばかりの場合は、外部からスペシャリストに参画してもらうことがある。
-	    </dd>
-	    
-	    <dt>テクニカルエキスパート</dt>
-	    <dd class="text">
-	      DADチームでは、技術的な専門家の助けが必要となることがある。これは、データベースの専門家であったり、ユーザエクスペリエンスの専門家であったり、セキュリティーの専門家であったりする。テクニカルエキスパートは、利害関係者に分類されることもあれば、インサイダーに分類されることもある。
-	    </dd>
 
-	    <dt>独立テスター</dt>
-	    <dd class="text">
+	  <div class="toggle-box">
+	    <div class="title">ドメインエキスパート</div>
+	    <div class="content">
+	      DADチームの支援のために、ドメインの専門家を連れてくることがある。これは、業務ドメインの専門化であったり、税や法務などの専門家であったりする。ドメインエキスパートは、利害関係者に分類される。
+	    </div>
+	  </div>
+
+	  <div class="toggle-box">
+	    <div class="title">スペシャリスト</div>
+	    <div class="content">
+	      アジャイルチームがスケールアップする場合や、アジャイルを始めたばかりの場合は、外部からスペシャリストに参画してもらうことがある。
+	    </div>
+	  </div>
+
+	  <div class="toggle-box">
+	    <div class="title">テクニカルエキスパート</div>
+	    <div class="content">
+	      DADチームでは、技術的な専門家の助けが必要となることがある。これは、データベースの専門家であったり、ユーザエクスペリエンスの専門家であったり、セキュリティーの専門家であったりする。テクニカルエキスパートは、利害関係者に分類されることもあれば、インサイダーに分類されることもある。
+	    </div>
+	  </div>
+
+	  <div class="toggle-box">
+	    <div class="title">独立テスター</div>
+	    <div class="content">
 	      大規模プロジェクトである場合は、独立したテストチームのサポートを受けることがある。複雑なドメイン、複雑な技術、高度なセキュリティ要件などに該当する場合である。
-	    </dd>
-	    
-	    <dt>インテグレーター</dt>
-	    <dd class="text">
+	    </div>
+	  </div>
+
+	  <div class="toggle-box">
+	    <div class="title">インテグレーター</div>
+	    <div class="content">
 	      大規模プロジェクトになる場合は、複数のDADチームの成果をシステム統合する責務を持つ担当者が必要となる。
-	    </dd>
-	  </dl>
-	</div>
+	    </div>
+	  </div>
+	</div>	    
+
+
 
       </div>
 

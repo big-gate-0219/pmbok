@@ -232,3 +232,25 @@ div.topcontrol {
     height: 48px;
     background-image: url("../image/scrollup.png");
 }
+
+div.toggle-box {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+div.toggle-box>div.title {
+    padding-left: 30px;
+    background-color: #8ee3f8;
+}
+
+div.toggle-box>div.title.close{
+    background-image: url("../image/toggle-close.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+div.toggle-box>div.title.open{
+    background-image: url("../image/toggle-open.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
