@@ -13,9 +13,9 @@
     <script type="text/javascript" src="../../common/script/lightbox.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function($){
-        $('#header-area').load('../../header.html');
-    	$('#footer-area').load('../../footer.html');
-	$('#menu-area').load('../../menu.html');
+      $('#header-area').load('../../header.html');
+      $('#footer-area').load('../../footer.html');
+      $('#menu-area').load('../../menu.html');
       });
     </script>
   </head>
@@ -44,34 +44,182 @@
 
 	<h3>チーム組織化戦略</h3>
 	<h4>小規模DADチーム</h4>
-
+	<div class="text">
+	  小規模DADチーム(2～15名)は、下図の様な構造が典型的です。
+	  小規模DADチームでは、プロダクトオーナーが１名、チームリーダーが１名、アーキテクチャオーナーが1名、チームメンバーが１名から10名程度の構造になります。小規模DADチームでは、プロダクトオーナーが居なかったり、チームリーダとアーキテクチャオーナーが同じ人になったり、とすることがあります。
+	  また、DADチームをサポートするメンバーもチームメンバーとして含まれます。
+	</div>
 	<a href="./image/dadteam(small).png" data-lightbox="dad-team">
-	   <img src="./image/dadteam(small).png" width="600" height="250"/>
+	  <img src="./image/dadteam(small).png" width="600" height="250"/>
 	</a>
 
 	<h4>中規模DADチーム</h4>
-
+	<div class="text">
+	  中規模DADチーム(10～40名)は、下図の様な構成が典型的です。
+	  複数のサブチーム（小規模DADチーム）で構成されており、サポートメンバーが適宜、複数のサブチームを支援します。
+	</div>
 	<a href="./image/dadteam(medium).png" data-lightbox="dad-team">
-	   <img src="./image/dadteam(medium).png" width="600" height="250"/>
+	  <img src="./image/dadteam(medium).png" width="600" height="250"/>
 	</a>
+	<div class="text">
+	  中規模DADチームは複数のサブチームから構成されるため、サブチーム間のコミュニケーションが問題になる事があります。このため、サブチームの数は２、３チームまでにしておくことが現実的なチーム構成になります。
+	  ほかに、コミュニケーションを効率化するために以下の様な事を検討します。
+	</div>
+	<ul>
+	  <li>方向付けフェーズでの構想とリリース計画作りに掛ける工数を増やす。</li>
+	  <li>サブチーム間の日時調整ミーティングを行う。</li>
+	  <li>電子ツール（email、チャット、ワークアイテム管理機能）などを使い、チーム間のコミュニケーションを取りやすくする。</li>
+	  <li></li>
+	</ul>
+
 
 
 	<h4>大規模DADチーム</h4>
-
+	<div class="text">
+	  大規模DADチーム(30人以上)は下図の様な構成が典型的です。
+	  大規模DADチームは、中規模DADチームと同じように複数のサブチームの集まりとして構成されます。大規模DADチームが中規模DADチームと異なるのは、「リーダーシップチーム」と「サポートメンバーのインテグレータ」の存在です。
+	</div>
+	<div class="text">
+	  リーダーシップチームは、各サブチームのアーキテクチャオーナーや、チームリーダー、プロダクトオーナーで構成されるチームで、チーム全体の調整を行うチームとなります。
+	  プログラムマネージャが、リーダーシップチームのリーダーとなります。
+	</div>
+	<div class="text">
+	  インテグレータは、各サブチームが構築したソリューションを統合する役割です。サブチーム数が少ない場合には、「インテグレータ」の役割をサブチームのメンバーが行うことがありますが、サブチームが多くなった場合には別途「インテグレータ」の役割を担うメンバーを確保します。
+	</div>
 	<a href="./image/dadteam(large).png" data-lightbox="dad-team">
-	   <img src="./image/dadteam(large).png" width="600" height="300"/>
+	  <img src="./image/dadteam(large).png" width="600" height="300"/>
 	</a>
+	<div class="text">
+	  リーダーシップチームは、主に以下の様な作業を担う必要があります。
+	</div>
+	<ul>
+	  <li>プロジェクト管理面の調整</li>
+	  <li>要求の調整</li>
+	  <li>技術的な調整</li>
+	</ul>
 
+	<h3>サブチームを組織するための戦略</h3>
+	大規模DADチームや、中規模DADチームを構成するサブチームを組織する際には、「フィーチャーチーム」「コンポーネントチーム」「社内オープンソース」と３つの基本的戦略が考えられます。
+	<h4>フィーチャーチーム</h4>
+	<dl>
+	  <dt>概要</dt>
+	  <dd>
+	    <div class="text">
+	      サブシステム全体を通して、一気通貫の機能を構築する責務を持つように組織されるチームです。一時期に複数のフィーチャーチームと同じソースを並行作業することが発生します。
+	    </div>
+	  </dd>
 
+	  <dt>メリット</dt>
+	  <dd>
+	    <ul>
+	      <li>インクリメンタルに機能全体が構築される。</li>
+	    </ul>
+	  </dd>
+
+	  <dt>デメリット</dt>
+	  <dd>
+	    <ul>
+	      <li>洗練されたソフトウェア構成管理(SCM)が必要。</li>
+	      <li>洗練されたシステムレベルの統合とリグレッションテストが必要。</li>
+	    </ul>
+	  </dd>
+
+	  <dt>考慮点</dt>
+	  <dd>
+	    <ul>
+	      <li>プロダクトオーナーがソリューションの小さな機能の塊を”垂直”で定義できる場合に有効。</li>
+	      <li>プロダクトオーナーが要求間の依存関係を管理出来るべき。</li>
+	    </ul>
+	  </dd>
+	</dl>
+
+	<h4>コンポーネントチーム</h4>
+	<dl>
+	  <dt>概要</dt>
+	  <dd>
+	    <div class="text">
+	      ソリューション全体の中の１つ以上のコンポーネントの構築に責務を持つ特定のチームです。コンポーネントチームは、コンポーネントの構築に責務を持つため、一時期に複数のチームが同じコンポーネントに対して並行作業することはありません。
+	    </div>
+	  </dd>
+
+	  <dt>メリット</dt>
+	  <dd>
+	    <ul>
+	      <li>コンポーネントは別のリリーススケジュールで開発されていくブラックボックスとして扱われる。</li>
+	      <li>開発チームでのコンポーネント再利用の可能性が向上し得る。</li>
+	      <li></li>
+	    </ul>
+	  </dd>
+
+	  <dt>デメリット</dt>
+	  <dd>
+	    <ul>
+	      <li>疎結合で高凝集度の綺麗なアーキテクチャを必要とする。</li>
+	      <li>コンポーネントとインターフェースの識別の前にアーキテクチャーを具体化する必要がある。</li>
+	      <li>コンポーネントチームは実装されていない機能のモックを作る必要があるかもしれない。モックが実際の機能で置き換えられるまではコンポーネントは出荷可能ではない。</li>
+	      <li>テクニカルコンポーネントをデモするのは難しい。</li>
+	      <li>チームが利害関係者より技術にフォーカスしがちになる。</li>
+	    </ul>
+	  </dd>
+
+	  <dt>考慮点</dt>
+	  <dd>
+	    <ul>
+	      <li>プロダクトオーナーがソリューションを”水平”軸で定義できる場合に利用できる。</li>
+	      <li>コンポーネントの技術的な依存関係を管理できる有能なアーキテクチャーオナーが必要。</li>
+	      <li>組織内でアーキテクチャー指向の文化が根付いているべき。</li>
+	    </ul>
+	  </dd>
+	</dl>
+
+	<h4>社内オープンソース</h4>
+	<dl>
+	  <dt>概要</dt>
+	  <dd>
+	    <div class="text">
+	      コンポーネントが、多くのチームにとって有効である場合に取られうる戦略です。多くのチームにとって有効なコンポーネントには、フレームワークやユーティリティーなどが考えられます。
+	    </div>
+	  </dd>
+
+	  <dt>メリット</dt>
+	  <dd>
+	    <ul>
+	      <li>多くのチームにとって有効なコンポーネントを、チームをまたがって協働開発することが可能になります。<li>
+	    </ul>
+	  </dd>
+
+	  <dt>デメリット</dt>
+	  <dd>
+	    <ul>
+	      <li>開発工数の投資がなされないケースが多い。</li>
+	      <li>オーナーシップや保守に関する課題について明確にする必要がある。</li>
+	    </ul>
+	  </dd>
+
+	  <dt>考慮点</dt>
+	  <dd>
+	    <ul>
+	      <li>すでにオープンソースの文化が組織に根付いている場合には有効。</li>
+	      <li>複数チームで必要なコンポーネントを識別できるなら良い戦略となる。</li>
+	      <li>コンポーネントチームが望ましくない場合に有効</li>
+	    </ul>
+	  </dd>
+	</dl>
+	
 	<h3>地理的条件</h3>
 	<h4>同一場所</h4>
 	<table><tbody><tr>
 	      <td><a href="./image/location1.png" data-lightbox="location">
 		  <img src="./image/location1.png" width="200" height="200" class="description" />
 	      </a></td>
-	      <td><p>
-		  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-	      </p></td>
+	      <td>
+		<div class="text">
+		  DADチームにとって一番理想的な地理的条件。
+		  チームメンバーが、同じ部屋、同じフロア、同じ建物の中で作業を行っている状況。
+		  チームメンバー間のコミュニケーションが口頭で行える。<br />
+		  小規模DADチームでは、同一場所で作業が行えるように調整を行うべきです。
+		</div>
+	      </td>
 	</tr></tbody></table>
 
 	<h4>分散サブチーム</h4>
@@ -80,32 +228,38 @@
 		  <img src="./image/location2.png" width="200" height="200" />
 	      </a></td>
 	      <td><div class="text">
-		  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		  中規模DADチームや大規模DADチームであり得る地理的条件。
+		  サブチームは同一場所で作業を行えているが、それぞれのサブチームが異なる場所で作業を行っている状況。<br />
+		  サブチーム間の情報交換を定期的に行うことが出来る仕組みを構築する必要があります。
+		  また、電子ツールなどを使うなどしてサブチーム間のコミュニケーションが円滑に行えるようにようにする必要があります。
 	      </div></td>
 	</tr></tbody></table>
-	      
+	
 	<h4>完全に拡散</h4>
 	<table><tbody><tr>
 	      <td><a href="./image/location3.png" data-lightbox="location">
 		  <img src="./image/location3.png" width="200" height="200" />
 	      </a></td>
 	      <td><div class="text">
-		  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		  各個人ごとに異なる場所で作業を行う様な地理的条件。
+		  避けるべき状況であるが、社内オープンソースに戦略を適用した場合には適用することもできる。
+		  電子ツール（メールやチャットなど）を使ったコミュニケーションを円滑に行えるような仕組みを構築することが必須。
 	      </div></td>
 	</tr></tbody></table>
 
 	<h4>部分的に拡散</h4>
-		<table><tbody><tr>
+	<table><tbody><tr>
 	      <td><a href="./image/location4.png" data-lightbox="location">
 		  <img src="./image/location4.png" width="200" height="200" />
 	      </a></td>
 	      <td><div class="text">
-		  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		  DADチームの一部のメンバーが、異なる場所で作業せざる得ない状況。
+		  サポートメンバーが拡散している状況であれば、定期的な打ち合わせの場を確保するなどの対処が必要。
+		  DADチームのチームメンバーが拡散している場合は、同一場所で作業を行えるようにできないか調整を取るべきです。
 	      </div></td>
 	</tr></tbody></table>
 
 
-	<h3>他チームとの関係</h3>
 
       </div>
       <div id="sidebar-area">
