@@ -241,6 +241,7 @@ div.toggle-box {
 div.toggle-box>div.title {
     padding-left: 30px;
     background-color: #8ee3f8;
+    cursor: pointer;
 }
 
 div.toggle-box>div.title.close{
