@@ -1,22 +1,28 @@
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ja-JP">
   <head>
     <title>Desciplined Agile Delivery</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="../../common/css/dcmegamenu.css" />
-    <link rel="stylesheet" type="text/css" href="../../common/css/skins/blue.css" />
-    <link rel="stylesheet" type="text/css" href="../../common/css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="../../common/css/lightbox.css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <link rel="stylesheet" type="text/css" href="../../common/css/dcmegamenu.css" >
+    <link rel="stylesheet" type="text/css" href="../../common/css/skins/blue.css" >
+    <link rel="stylesheet" type="text/css" href="../../common/css/layout.css" >
+    <link rel="stylesheet" type="text/css" href="../../common/css/lightbox.css" >
+    <link rel="stylesheet" type="text/css" href="../../common/css/toggle.css" >
     <script type="text/javascript" src="../../common/script/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="../../common/script/jquery-ui-1.10.4.custom.min.js"></script>
     <script type="text/javascript" src="../../common/script/jquery.hoverIntent.minified.js"></script>
     <script type="text/javascript" src="../../common/script/jquery.dcmegamenu.1.3.3.js"></script>
     <script type="text/javascript" src="../../common/script/scrolltopcontrol.js"></script>
-    <script type="text/javascript" src="../../common/script/lightbox.min.js"></script>    <script type="text/javascript">
-      $(document).ready(function($){
-        $('#header-area').load('../../header.html');
-    	$('#footer-area').load('../../footer.html');
-	$('#menu-area').load('../../menu.html');
-      });
-    </script>
+    <script type="text/javascript" src="../../common/script/lightbox.min.js"></script>
+    <script type="text/javascript" src="../../common/script/common.js"></script>
+    <script type="text/javascript"><!--
+				       $(document).ready(function($){
+				       $('#header-area').load('../../header.html');
+				       $('#footer-area').load('../../footer.html');
+				       $('#menu-area').load('../../menu.html');
+				       });
+				     --></script>
   </head>
 
   <body>
@@ -25,12 +31,13 @@
       <div id="menu-area"></div>
       <div id="contents-area">
 	<div id="breadcrumb">
-	  <span class=""><a href="/dad/index.html" class="menu-jump">Desciplined Agile Delivery</a></span>
+	  <span><a href="/dad/index.html" class="menu-jump">Desciplined Agile Delivery</a></span>
 	  &raquo;
 	  <span><a href="/dad/inception/index.html" class="menu-jump">方向付けフェーズ</a></span>
 	  &raquo;
 	  <span>方向付けフェーズとは</span>
 	</div>
+	
 	<h1>方向付けフェーズ</h1>
 
 	<h2>方向付けフェーズとは</h2>
@@ -68,12 +75,12 @@
 	<div class="text">
 	  DADでは、方向付けフェーズのゴールへの典型的なアプローチとして下図のように提案しています。
 	  <a href="./image/aprochOfInception.png" data-lightbox="inception">
-	    <img src="./image/aprochOfInception.png" width="600" height="250"/>
+	    <img src="./image/aprochOfInception.png" width="600" height="250" alt="方向付けフェーズのアプローチ">
 	  </a>
 	</div>
 
 	<div class="text">
-
+	  アプローチに記述されているアクティビティーの数を見ると方向付けフェーズで実施する作業が沢山あるように感じますが、実際には以下に列挙する作業を行うことになります。なお、方向付けフェーズに掛ける期間は一般的に４週間ほどが目安とされています。
 	  <ol>
 	    <li>ビジョンを識別する</li>
 	    <li>初期の要求構想</li>
@@ -85,30 +92,383 @@
 	</div>
 
 	<h3>方向付けフェーズで気を付けるべき事項</h3>
-	<h4>企業方針への準拠</h4>
+	<h4>エンタープライズ戦略間のトレードオフを理解する</h4>
+
+	<div class="toggle-box box">
+	  <div class="title">共通の開発ガイドライン採用</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd>
+		アーキテクチャ構想で利用する技術が識別されると、アーキテクチャの利用ガイドラインの作成に着手が可能となります。作成が必要なガイドラインには以下列挙するようなものがあります。
+		<ul>
+		  <li>コーディング規約</li>
+		  <li>データ規約</li>
+		  <li>ユーザーインターフェース規約</li>
+		  <li>など</li>
+		</ul>
+	      </dd>
+	      
+	      <dt>メリット</dt>
+	      <dd><ul>
+		  <li>ITプロジェクト間の整合性が取れ、その結果、全体的に品質が向上する。</li>
+		  <li>チームメンバー間の良好な相互理解によって、べろシティー／生産性が上がる。</li>
+		  <li>リリースや新チームメンバーに横断的なプロジェクトの連続性</li>
+	      </ul></dd>
+	      
+	      <dt>デメリット</dt>
+	      <dd><ul>
+		  <li>合意されたガイドラインが存在しないとそれらを作成するようにチームに要求される可能性がある。</li>
+		  <li>チームメンバーは、スピードアップするために一旦スローダウンする必要があるかもしれない。それは学習曲線の様なものだろう。</li>
+		  <li>チームメンバーの何人かは、自分たちにはもっと良いガイドラインがあると考えるかもしれない。</li>
+	      </ul></dd>
+	      
+	      <dt>備考</dt>
+	      <dd><ul>
+		  <li>過度に複雑なガイドラインは使われる見込みがない。</li>
+		  <li>新しく作成したガイドラインを他の組織と共有する面倒な作業があるために、そもそも作成する動機を減少させるかもしれない。ガイドライン申請プロセスの簡素化を促進するため、共有ガイダンスに責任を持つエンタープライズチームとともに作業する必要がある事に気づくだろう。</li>
+		  <li>誰のガイドラインがベスト化についての政治的な戦いは、ほとんど上手くいくことがない。別の”完璧な”ガイドラインを無理に利用するよりも、不完全なガイドラインを使った方がたいてい多くの価値がある。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+	
+	<div class="toggle-box box">
+	  <div class="title">共通のテンプレートを採用</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd>
+		共通のテンプレートを使用することで、ユーザーマニュアルや運用マニュアル、ヘルプデスクマニュアルと云ったサポート文章に一貫性を持たせるようにします。テンプレートで大切なのは、統一された文章を作成することではなく、チーム間で合理的な一貫性を保てるようにすることです。
+	      </dd>
+
+	      <dt>メリット</dt>
+	      <dd><ul>
+		  <li>
+		    プロジェクト間の文章の一貫性、下流チームへの全体的な使用可能性の拡大。
+		  </li>
+		  <li>
+		    チームメンバー間の良好な相互理解により、ベロシティー／生産性が向上する。
+		  </li>
+		  <li>
+		    テンプレートが考慮事項のリマインダーとしての機能を提供する。
+		</li></ul>
+	      </dd>
+
+	      <dt>デメリット</dt>
+	      <dd><ul>
+		  <li>
+		    テンプレートがあることによって、その状況下では価値がない文章を作成してしまうかもしれない。
+		  </li>
+	      </ul></dd>
+
+	      <dt>備考</dt>
+	      <dd><ul>
+		  <li>
+		    必要な情報を可能な限り全て表現することを追及した網羅的なテンプレートは、不必要な官僚主義と的外れな文章の作成にほぼ終わる。
+		  </li>
+		  <li>
+		    良いテンプレートは、必要最小限の情報にフォーカスを当てている。
+		  </li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">既存のインフラを再利用</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd>
+		組織内の再利用可能な資産については、積極的に再利用を行うようにします。
+		再利用可能な資産には、既存のコンポーネントやサービス、パターンとメカニズム（データ永続化、セキュリティ設計、配布などのテクニック）、特定のアーキテクチャ実装方法を示す参照アーキテクチャーなどが考えられます。
+	      </dd>
+
+	      <dt>メリット</dt>
+	      <dd><ul>
+		  <li>投資対効果(ROI)の増大、品質の向上、時間価値の改善、運用コストの低下。</li>
+	      </ul></dd>
+
+	      <dt>デメリット</dt>
+	      <dd><ul>
+		  <li>再利用可能な資産の開発と維持に対する投資が必要となる。</li>
+		  <li>簡単に資産を見つけることが出来ないため、不必要な重複や無駄な努力につながる可能性がある。</li>
+	      </ul></dd>
+
+	      <dt>備考</dt>
+	      <dd><ul>
+		  <li>インフラが活用されていることを確認するための面倒なアーキテクチャーのレビューは、デリバリーチームにアーキテクチャーチームと作業することを避ける動機を与えてしまう。</li>
+		  <li>資産の利用に対するチャージバックスキームは、チームがそれらを再利用しない動機づけとなる。</li>
+		  <li>すでにあるメッセージングサービスなどの既存インフラは、要求するものよりはるかに多くの機能があり、アプリケーション固有の戦略を作る以上に、それを使用することにコストがかかることがある。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+	
+	<div class="toggle-box box">
+	  <div class="title">ITガバナンス方針の理解</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd>
+		何が、誰に、いつレビューされる必要があるのかなど、ＩＴガバナンスに関する事案について把握しておく必要があります。また、プロジェクトダッシュボードやステータスレポートなどを通じて、どの様な情報が、誰にどの程度、いつ、提供されるべきかついても知っておくべきです。
+	      </dd>
+	      
+	      <dt>メリット</dt>
+	      <dd><ul>
+		  <li>ガバナンス方針を順守した計画の立案と簡素化が可能。</li>
+		  <li>組織のガバナンス戦略がどのようにプロジェクトチームに役立つかを確認することができる。</li>
+	      </ul></dd>
+
+	      <dt>デメリット</dt>
+	      <dd><ul>
+		  <li>従来の考え方を反映した既存の戦略として、アジャイルチームを管理するために、シニアマネージャー層を適切な戦略に基づいて教育することが必要となるかもしれない。</li>
+	      </ul></dd>
+
+	      <dt>備考</dt>
+	      <dd><ul>
+		  <li>アーンド・バリュー・マネジメント(EVM)のスキームを含む従来のガバナンス戦略は、価値ではなく文章に基づいている。アジャイルチームはアジャイルな方法で管理しなければならない。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<h4>エンタープライズサポート戦略の比較</h4>
+	<div class="toggle-box box">
+	  <div class="title">公式なエンタープライズサポート</div>
+	  <div class="content">
+	    <dl>
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>チームを企業の方針に準拠させる助けとなる。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>レビュー結果を待つため、方向付けフェーズの作業が長引く。</li>
+		  <li>重厚で角に詳細なアーキテクチャーのアプローチになりやすい。</li>
+		  <li>エンタープライズ・サポート・プロセスにとって部分最適となり、ITプロセスの全体的な効率を低下させる。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>エンタープライズじーむが単に自らの存在価値を正当化せんがために、開発チームが負わされる無駄なオーバーヘッドを避ける。つまり、常に組織にとっての新岡地は何なのかを問い、加えてその価値をより効率的に達成できるかどうかと云う事を問うのである。</li>
+		  <li>デリバリーチームが、エンタープライズ・サポートプロセスに従って作業する暇はないと考え、エンタープライズの問題を無視してしまう事は、デリバリーチームが深刻な問題を抱えているか、エンタープライズプロセスを重荷に感じているという明確な指標である。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">相互協力</div>
+	  <div class="content">
+	    <dl>
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>チームのエンタープライズ方針への準拠を促進する。</li>
+		  <li>業務の専門家は、自分の戦略への直接的なフィードバックを得られる。</li>
+		  <li>スキルが、業務の専門家からチームに（もしかするとその逆に）トランスファーされる。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>業務の専門家は、豊富な実務スキルを求める。</li>
+		  <li>業務の専門家は、従来型チームおよびアジャイルチームの両方を様々な方法でサポートするために、非常に柔軟に対応しなければならない。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>デリバリーチームと積極的にかかわりたがらない業務の専門家は、有害無益となっているだろう。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">共有された成果物</div>
+	  <div class="content">
+	    <dl>
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>再利用可能な成果物、ガイドライン、その他エンタープライズ資産が、統一された情報源から提供される。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>バージョン管理やグルーミング（古いか使用されていない資産の削除）、そしてサポートに関する資産管理方針を必要とする。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>再利用プログラムに課金するチャージバックスキームは、多くの場合、デリバリーチームが既存資産を再利用しないように誘導してしまう。既存の成果物を再利用する権利を得るための複雑な管理方針も、再利用率を低減させてしまう。再利用プログラムを成功させるためには出来るだけ簡単に再利用できるようにしなければならない。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">なし</div>
+	  <div class="content">
+	    <dl>
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>方向付けフェーズの佐合を削減される。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>デリバリーチームは一般的なエンタープライズ方針にほとんど従わない。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>自分たちが特殊な状況にあると思い込み、他の組織との対話や既存資産の活用は不要だと考えている（これは問題を抱えているチームの一般的な兆候だが）デリバリーチームには注意が必要。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+
 	<h4>予算に関する戦略</h4>
-      </div>
-      <div id="sidebar-area">
-	<div id="side-menu">
-	  <ul>
-	    <li>Descilined Agile Delivery
-	      <ul>
-		<li>DAD概要
-		  <ul>
-		    <li>DADとは</li>
-		    <li>DADのライフサイクル</li>
-		    <li>権利、責務、役割</li>
-		    <li>DADチーム</li>
-		  </ul>
-		</li>
-		<li>方向付けフェーズ</li>
-		<li>構築フェーズ</li>
-		<li>移行フェーズ</li>
-	      </ul>
-	  </ul>
+
+	<div class="toggle-box box">
+	  <div class="title">金額固定(範囲なし)</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd><ul>
+		  <li></li>プロジェクトの開始時に、初期の要求とアーキテクチャモデリングに基づく最初の見積もりをコミットする。
+	      </ul></dd>
+
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>利害関係者が望む正確なコストを提供する。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>プロジェクトチームが直面する現実の不確実性は反映されない。</li>
+		  <li>計画に対する制度と能力について間違った期待が織り込まれる。</li>
+		  <li>スコープとスケジュールが確定すると、ITプロフェッショナル側の怪しげな行動が助長される。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>提供すべきスコープの変更が許容されている場合に適している。</li>
+		  <li>利害関係者は、多くのITチームが予算を水増ししているという事実を理解している。そして、その水増しを削る交渉に最善を尽くす。</li>
+		  <li>前に戻ってより多くの予算を獲得するための交渉が必要になる可能性が高い。そして次にあなたの業務完遂能力に対する利害関係者からの信用を落とすことになる。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">金額固定(範囲あり)</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd><ul>
+		  <li>プロジェクトの開始時に、初期の要求とアーキテクチャモデリングに基づく最初の見積もりをコミットする。</li>
+		  <li>見積り額には範囲がある。</li>
+	      </ul></dd>
+
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>チームが直面するより現実的な不確実性についての判断材料を利害関係者に提供する。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>多くの利害関係者は、予測レンジの低い方にフォーカスする。</li>
+		  <li>多くの利害関係者は範囲のある見積りの必要性を理解していない。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>範囲のある見積りが望ましいと云う事について、複数の利害関係者を教育する必要があるだろう。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">段階的予算確保</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd><ul>
+		  <li>一度見積りを行ったあと、再度蜜もを行いより特定期間に対するプロジェクトの予算を確保する。</li>
+		  <li>再見積りを行うのは、期間ではなく利害関係者の同意を得ることや、実際に動作するコードやシステムの一部を構築することでアーキテクチャを実証するなど、DADマイルストーンのような目標に基づくべき。</li>
+	      </ul></dd>
+
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>プロジェクトの財務リスク低減。</li>
+		  <li>プロジェクトに対する財務的効果を利害関係者に提供する。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>一部の組織には煩雑なプロジェクト資金調達プロセスがある。その場合、段階的な予算確保をチームに要求する事で、官僚的な負荷を増やしてしまい、デリバリーの遅延リスクを増大させてしまう。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>全体のオーバーヘッドをできるだけ減らすため、また、利害関係者とチームをマイルストーンレビューと言う重要テーマにフォーカスさせるため、段階的予算確保はライフサイクルマイルストーンに合わせるようにする。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">タイム＆マテリアル(T&amp;M)</div>
+	  <div class="content">
+	    <dl>
+	      <dt>概要</dt>
+	      <dd><ul>
+		  <li>予算の範囲で効果的にプロジェクトを進めていいくことがマネージメントに求められる。</li>
+	      </ul></dd>
+
+	      <dt>利点</dt>
+	      <dd><ul>
+		  <li>プロジェクトが適切に統治されれば、金銭的リスクが大幅に低減される。</li>
+	      </ul></dd>
+
+	      <dt>欠点</dt>
+	      <dd><ul>
+		  <li>利害関係者による積極的なプロジェクトの監視が必要。</li>
+	      </ul></dd>
+
+	      <dt>考慮点</dt>
+	      <dd><ul>
+		  <li>一部の組織は、T&amp;MアプローチがITプロジェクトに資金を供給するリスキーな方法であると、誤って決めつけている。コレラノ組織では、利害関係者がITに対して”無干渉”アプローチをとるような、効果のないガバナンス方針を常に持っていることが判明している。</li>
+	      </ul></dd>
+	    </dl>
+	  </div>
 	</div>
       </div>
-      <div id ="footer-area"></div>
+    </div>
+    <div id="sidebar-area">
+      <div id="side-menu">
+	<ul>
+	  <li>Descilined Agile Delivery
+	    <ul>
+	      <li>DAD概要
+		<ul>
+		  <li>DADとは</li>
+		  <li>DADのライフサイクル</li>
+		  <li>権利、責務、役割</li>
+		  <li>DADチーム</li>
+		</ul>
+	      </li>
+	      <li>方向付けフェーズ</li>
+	      <li>構築フェーズ</li>
+	      <li>移行フェーズ</li>
+	    </ul>
+	</ul>
+      </div>
+    </div>
+    <div id ="footer-area"></div>
   </body>
-
 </html>
