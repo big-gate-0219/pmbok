@@ -5,10 +5,13 @@
     <link rel="stylesheet" type="text/css" href="../../common/css/dcmegamenu.css" />
     <link rel="stylesheet" type="text/css" href="../../common/css/skins/blue.css" />
     <link rel="stylesheet" type="text/css" href="../../common/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../../common/css/toggle.css" >
     <script type="text/javascript" src="../../common/script/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="../../common/script/jquery-ui-1.10.4.custom.min.js"></script>
     <script type="text/javascript" src="../../common/script/jquery.hoverIntent.minified.js"></script>
     <script type="text/javascript" src="../../common/script/jquery.dcmegamenu.1.3.3.js"></script>
     <script type="text/javascript" src="../../common/script/scrolltopcontrol.js"></script>
+    <script type="text/javascript" src="../../common/script/common.js"></script>
     <script type="text/javascript">
       $(document).ready(function($){
         $('#header-area').load('../../header.html');
@@ -34,29 +37,132 @@
 
 	<h2>初期の要求構想</h2>
 	<h4>初期の要求における詳細レベル</h4>
-	<ul>
-	  <li>Big Requirements Up Front (BRUF:詳細な仕様)</li>
-	  <li>要求構想（ポイントを押さえた少量の仕様）</li>
-	  <li>ゴール駆動</li>
-	  <li>モデリングしない</li>
-	</ul>
+	<div class="toggle-box box">
+	  <div class="title">Big Requirements Up Front (BRUF:詳細な仕様)</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+	<div class="toggle-box box">
+	  <div class="title">要求構想（ポイントを押さえた少量の仕様）</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+	<div class="toggle-box box">
+	  <div class="title">ゴール駆動</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+	<div class="toggle-box box">
+	  <div class="title">モデリングしない</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
 
 	<h4>要求モデリングの選択肢</h4>
+	<div class="toggle-box box">
+	  <div class="title">ビジネスプロセス／データフロー図</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">ビジネスルール</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">制約(Constraint)</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">コンテキスト図</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">ドメインモデル／概念モデル</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">エピック(Epic)</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">機能一覧(Feature statements)</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">フローチャート</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">マインドマップ</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">非機能要求(NFR)</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">ペルソナ</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">要求事項(Shall statement)</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">UIフロー図／ナビゲーションマップ／ストーリーボード</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+	<div class="toggle-box box">
+	  <div class="title">UIプロトタイプ（高精度）</div>
+	  <div class="content">
+	    content-area
+	  </div>
+	</div>
+
+
 	<ul>
-	  <li>ビジネスプロセス／データフロー図</li>
-	  <li>ビジネスルール</li>
-	  <li>制約(Constraint)</li>
-	  <li>コンテキスト図</li>
-	  <li>ドメインモデル／概念モデル</li>
-	  <li>エピック(Epic)</li>
-	  <li>機能一覧(Feature statements)</li>
-	  <li>フローチャート</li>
-	  <li>マインドマップ</li>
-	  <li>非機能要求(NFR)</li>
-	  <li>ペルソナ</li>
-	  <li>要求事項(Shall statement)</li>
-	  <li>UIフロー図／ナビゲーションマップ／ストーリーボード</li>
-	  <li>UIプロトタイプ（高精度）</li>
 	  <li>UIプロトタイプ（低精度）／手書きのスケッチ</li>
 	  <li>UI仕様書</li>
 	  <li>UMLアクティビティ図</li>
