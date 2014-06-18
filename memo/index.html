@@ -14,7 +14,7 @@
 	  <thead>
 	    <tr>
 	      <th>工程</th>
-	      <th>成果物</th>
+	      <th>成果物／作業</th>
 	      <th>作成要否</th>
 	    </tr>
 	  </thead>
@@ -132,7 +132,7 @@
 	    </tr>
 	    
 	    <tr>
-	      <th class="nowrap" rowspan="20">詳細設計</th>
+	      <th class="nowrap" rowspan="17">詳細設計</th>
 	      <td>物理データモデル</td>
 	      <td>△（ツール）</td>
 	    </tr>
@@ -184,8 +184,481 @@
 	      <td>設計シーケンス図</td>
 	      <td>×</td>
 	    </tr>
+	    <tr>
+	      <td>プログラムインターフェース一覧表</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>プログラム仕様書</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>プログラム一覧表</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>プログラム関連図</td>
+	      <td></td>
+	    </tr>
+
+	    <tr>
+	      <th class="nowrap" rowspan="9">作成</th>
+	      <td>プログラム作成</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>単体テストケース作成</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>単体テスト実施</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>単体テスト（テスト駆動開発）</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>仕様確認レビュー</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>疎通テストケース作成</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>疎通テスト実施</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>テスト結果報告書</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>レトロスペクティブ</td>
+	      <td></td>
+	    </tr>
+
+	    <tr>
+	      <th class="nowrap" rowspan="3">結合テスト</th>
+	      <td>テストケース作成</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>テスト実施</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>テスト結果報告書</td>
+	      <td></td>
+	    </tr>
+
+	    <tr>
+	      <th class="nowrap" rowspan="3">総合テスト</th>
+	      <td>テストケース作成</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>テスト実施</td>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <td>テスト結果報告書</td>
+	      <td></td>
+	    </tr>
+
+	    <tr>
+	      <th class="nowrap">ほか</th>
+	      <td>テスト計画書作成</td>
+	      <td></td>
+	    </tr>
 	  </tbody>
 	</table>
+
+	<h4>定性的評価の観点</h4>
+	<table>
+	  <thead>
+	    <tr>
+	      <th>分類</th>
+	      <th>評価項目</th>
+	      <th>評価観点</th>
+	      <th>判断</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th class="nowrap" rowspan="4">プロセス</th>
+	      <td>イテレーション</td>
+	      <td>イテレーションの間隔と内容の妥当性</td>
+	      <td rowspan="19">継続、改善、破棄のどれかを選ぶか検討する。</td>
+	    </tr>
+	    <tr>
+	      <td>プログラミング</td>
+	      <td>開発手法（ペアプログラミング、リリース時期など）の有効性</td>
+	    </tr>
+	    <tr>
+	      <td>テスト</td>
+	      <td>テスト手法（テスト駆動開発など）の有効性</td>
+	    </tr>
+	    <tr>
+	      <td>仕様確認レビュー</td>
+	      <td>時間、レビュー方法の妥当性</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="2">体制</th>
+	      <td>各役割</td>
+	      <td>役割定義の妥当性</td>
+	    </tr>
+	    <tr>
+	      <td>モチベーション</td>
+	      <td>プロジェクトの進め方の妥当性</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="1">会議体</th>
+	      <td>会議種類と内容</td>
+	      <td>時間、内容、参加メンバー、開催頻度の妥当性</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="1">タスク</th>
+	      <td>タスクの粒度</td>
+	      <td>タスク粒度の妥当性</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="3">ドキュメント</th>
+	      <td>プログラム上の十分性</td>
+	      <td>プログラミングする上で必要なドキュメントの妥当性。</td>
+	    </tr>
+	    <tr>
+	      <td>テスト上の十分性</td>
+	      <td>テストケースを作成する上で必要なドキュメントの妥当性。</td>
+	    </tr>
+	    <tr>
+	      <td>保守上の十分性</td>
+	      <td>保守ドキュメントとしての十分性。</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="3">管理方法</th>
+	      <td>進捗管理</td>
+	      <td>管理コスト、可視化性、管理方法の妥当性</td>
+	    </tr>
+	    <tr>
+	      <td>コスト管理</td>
+	      <td>管理コスト、可視化性、管理方法の妥当性</td>
+	    </tr>
+	    <tr>
+	      <td>品質管理</td>
+	      <td>管理コスト、可視化性、管理方法、管理指標の妥当性</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="2">ツール</th>
+	      <td>タスク・管理方法</td>
+	      <td>ツールの有効性と容易性</td>
+	    </tr>
+	    <tr>
+	      <td>常時結合方法</td>
+	      <td>ツールの有効性と容易性</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="1">対象規模</th>
+	      <td>開発規模</td>
+	      <td>チーム当たりの規模、イテレーション当たりの規模の妥当性</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="1">教育</h>
+	      <td>科目</td>
+	      <td>講義時間、内容の妥当性</td>
+ 	    </tr>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<h4>定量的評価の観点</h4>
+	<table>
+	  <thead>
+	    <tr>
+	      <th>分類</th>
+	      <th>評価項目</th>
+	      <th>評価観点</th>
+	      <th>単位</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th class="nowrap" rowspan="11">生産性</th>
+	      <td rowspan="3">開発生産性</td>
+	      <td>開発規模（全体、イテレーションごと、開発者ごと）</td>
+	      <td>TFP, SLOC</td>
+	    </tr>
+	    <tr>
+	      <td>開発時間（全体、イテレーションごと、開発者ごと）</td>
+	      <td>時間</td>
+	    </tr>
+	    <tr>
+	      <td>生産性効率</td>
+	      <td>時間/TFP</td>
+	    </tr>
+	    <tr>
+	      <td rowspan="3">変更要望の影響度</td>
+	      <td>変更量</td>
+	      <td>TFP, SLOC</td>
+	    </tr>
+	    <tr>
+	      <td>変更箇所</td>
+	      <td>―</td>
+	    </tr>
+	    <tr>
+	      <td>修正時間</td>
+	      <td>時間/TFP</td>
+	    </tr>
+	    <tr>
+	      <td rowspan="5">作業時間と作業時間比率</td>
+	      <td>詳細設計時間</td>
+	      <td>時間, %</td>
+	    </tr>
+	    <tr>
+	      <td>制作（コーディング、単体テスト）時間</td>
+	      <td>時間, %</td>
+	    </tr>
+	    <tr>
+	      <td>結合テスト時間</td>
+	      <td>時間, %</td>
+	    </tr>
+	    <tr>
+	      <td>会議時間、レビュー時間</td>
+	      <td>時間, %</td>
+	    </tr>
+	    <tr>
+	      <td>管理作業時間</td>
+	      <td>時間, %</td>
+	    </tr>
+
+
+	    <tr>
+	      <th class="nowrap" rowspan="5">品質</th>
+	      <td rowspan="2">単体テストでの品質メトリクス</td>
+	      <td>テストカバレッジによる品質保証</td>
+	      <td>％</td>
+	    </tr>
+	    <tr>
+	      <td>品質指標の妥当性</td>
+	      <td>件／KStep</td>
+	    </tr>
+	    <tr>
+	      <td rowspan="3">結合テストでの品質メトリクス</td>
+	      <td>テストケース密度</td>
+	      <td>件／KStep</td>
+	    </tr>
+	    <tr>
+	      <td>検出欠陥密度</td>
+	      <td>件／KStep</td>
+	    </tr>
+	    <tr>
+	      <td>検出欠陥特性</td>
+	      <td>比率</td>
+	    </tr>
+
+	    <tr>
+	      <th class="nowrap" rowspan="1">コスト</th>
+	      <td>見積りコストと実績とのかい離</td>
+	      <td>実績工数÷見積り工数</td>
+	      <td>％</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap" rowspan="2">スケジュール</th>
+	      <td rowspan="2">進捗率</td>
+	      <td>計画と実績の差（イテレーション単位）</td>
+	      <td>％</td>
+	    </tr>
+	    <tr>
+	      <td>計画と実績の差（詳細設計～結合テスト）</td>
+	      <td>％</td>
+	    </tr>
+	  </tbody>
+	</table>
+
+
+	<h4>タスクのテンプレート化</h4>
+	<table>
+	  <thead>
+	    <tr>
+	      <th class="nowrap">チケット名</th>
+	      <th>内容についての備考</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th class="nowrap">イテレーション計画</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">テスト作成／テストケースレビュー</th>
+	      <td>画面からの疎通テストのテストケースを作成する。テストケースのレビューを行う。</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">プレゼンテーション層の実装</th>
+	      <td>画面を実装する。</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">ファンクション層の実装</th>
+	      <td>ファンクション層（アプリケーション層、ロジック層、ビジネスロジック層、トランザクション層）の実装とテスト。</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">データ層の実装</th>
+	      <td>データ層の実装とテスト。</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">観点リスト作成</th>
+	      <td>（性的テスト）</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">コードレビュー</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">画面からの疎通テスト</th>
+	      <td>テストデータ作成、画面からの疎通テスト実施。</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">欠陥修正（欠陥単位）</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">単体テスト結果報告書、品質評価表作成</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">変更対応（影響範囲調査、工数見積り）</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">変更対応（プログラム修正、再テスト）</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">会議</th>
+	      <td>朝会、レトロスペクティブ、仕様確認レビュー、その他会議</td>
+	    </tr>
+	    <tr>
+	      <th class="nowrap">開発環境整備</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th>その他（開発作業関連）</th>
+	      <td></td>
+	    </tr>
+	    <tr>
+	      <th>その他（開発作業関連以外）</th>
+	      <td></td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<h4>事前に実施すべきプロジェクト教育</h4>
+	<table>
+	  <thead>
+	    <tr>
+	      <th>科目名</th>
+	      <th>内容</th>
+	      <th>時間</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th>アジャイルプロセスの概要</th>
+	      <td>
+		<ol class="nest">
+		  一般的なアジャイルプロセスの知識
+		  <li>総論
+		    <ol>
+		      <li>アジャイルプロセスとは</li>
+		      <li>アジャイルプロセスの背景</li>
+		      <li>アジャイルプロセスの特徴</li>
+		      <li>アジャイルプロセスの適用方法</li>
+		      </ol>
+		    </li>
+		  <li>アジャイルプロセス概要
+		    <ol>
+		      <li>アジャイルプロセスの特徴</li>
+		      <li>ストーリー管理</li>
+		      <li>プラクティス</li>
+		      </ol>
+		    </li>
+		</ol>
+	      </td>
+	      <td>２時間</td>
+	    </tr>
+	    <tr>
+	      <th>プロジェクト管理の方法</th>
+	      <td>
+		<ol class="nest">
+		  プロジェクト固有の管理方法説明
+		  <li>アジャイルプロセス適用の目的</li>
+		  <li>プロセス
+		    <ol>
+		      <li>プロセス全体イメージ</li>
+		      <li>イテレーション内のプロセス</li>
+		    </ol>
+		  </li>
+		  <li>体制</li>
+		  <li>会議体</li>
+		  <li>管理方法
+		    <ol>
+		      <li>進捗管理</li>
+		      <li>コスト管理</li>
+		      <li>品質管理</li>
+		      <li>変更管理</li>
+		      <li>その他管理</li>
+		      </ol>
+		    </li>
+		</ol>
+	      </td>
+	      <td>２時間</td>
+	    </tr>
+	    <tr>
+	      <th rowspan="2">適用プラクティスの解説
+	      </th>
+	      <td>
+		<ol class="nest">
+		  【前半】プロジェクトのプラクティス
+		  <li>アジャイルプロセスのプラクティス</li>
+		  <li>今回のプロジェクトでのプラクティス
+		    <ol>
+		      <li>ペアプログラミング</li>
+		      <li>テスト駆動開発</li>
+		      <li>リファクタリング</li>
+		      <li>常時結合</li>
+		      <li>回帰テスト</li>
+		      </ol>
+		    </li>
+		</ol>
+	      </td>
+	      <td rowspan="2">２．５時間</td>
+	    </tr>
+	    <tr>
+	      <td>
+		<ol class="nest">
+		  【後半】タスク管理の方法
+		  <li>アジャイルプロセスにおける進捗制御</li>
+		  <li>今回のプロジェクトでの進捗管理</li>
+		    <ol>
+		      <li>今回の進捗管理方法について</li>
+		      <li>日々の作業フローについて</li>
+		    </ol>
+		    </li>
+		  <li>チケット管理詳細
+		    <ol>
+		      <li>タスク管理ツールについて</li>
+		      <li>ストーリーの管理方法</li>
+		      <li>タスクの管理方法</li>
+		      </ol>
+		    </li>
+		  <li>今回のプロジェクトでの不具合管理方法</li>
+		</ol>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+	
       </div>
     </div>
   </body>
