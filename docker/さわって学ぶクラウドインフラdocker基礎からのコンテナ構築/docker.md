@@ -303,6 +303,27 @@ $ docker network inspect my-docker-net
 ---
 ## Dockerネットワークにコンテナを接続
 
+```sh
+$ docker container run -dit --name web01 -p 8080:80 --net my-docker-net httpd:2.4
+$ docker container run -dit --name web02 -p 8081:80 --net my-docker-net httpd:2.4
+$ docker network inspect my-docker-net
+
+
+```
+---
+## Dockerネットワークを作成した結果イメージ
+
+![]()
+
+---
+## Dockerネットワーク
+
+- デフォルトで用意されているbridgeネットワークは名前を使った通信ができない
+- 新しく作成したDokerネットワークは名前を使った通信ができる。
+  - `-net`オプションを使ってネットワークを指定した場合は、Dockerが用意するDNSに情報が登録される。
+  - `docker network connect`で接続した場合もDockerが用意するDNSに情報が登録される。
+    - 
+
 ---
 ## hostネットワーク
 
