@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1521px" height="681px" viewBox="-0.5 -0.5 1521 681" content="&lt;mxfile host=&quot;26f4bca3-1251-49ca-b232-ead68cbe71af&quot; modified=&quot;2020-07-16T01:52:45.946Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.0 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36&quot; etag=&quot;l_XXk2FHMaVYIQFC6LlO&quot; version=&quot;13.1.3&quot;&gt;&lt;diagram id=&quot;6hGFLwfOUW9BJ-s0fimq&quot; name=&quot;Page-1&quot;&gt;5VpLc6s2FP41WjYjIZ5Lv2676dw7k0WXGcXItiYYuSAnTn99j0BgQHLi5OK0187CEUcP0Pedlw4gOtsefi/YbvOnTHmGPJweEJ0jz0sSCr9a8FoLYs+vBetCpLWIHAX34h9uhNhI9yLlZW+gkjJTYtcXLmWe86XqyVhRyJf+sJXM+nfdsTW3BPdLltnSv0SqNs0uoqP8Dy7Wm+bOJEzqni1rBpudlBuWypeOiC4QnRVSqrq1Pcx4prFrcKnnfTvR2z5YwXN1zoTmkZ9ZtjebMw+mXpvdFnKfp1xPwIhOXzZC8fsdW+reF6AXZBu1zeCKQHMlc2UI8yhcm+V5ofjh5DOSduegMVxuuSpeYYiZ4McGLKMtvrl8OUJPcDNm08E9bEYyw/e6XfsICTQMKm6EqPc+QsDiTjdBQzK5V++jtOOFgCfhxXHSj6PIAnElsmwmM6mH5zIH+TRl5abihIwDshf0QW41tINyFDlA9uIRQPbi80FOmWKlkgX/T5RxoItOZfQcMI2BErVAmsvlE2iMF2Za6R51a61baEFRTNFkYhrJvGp4aBobSRwfxwyRBnRUH8hSFfKJD1TQoZUsE+tc6zSgWWmyxlqAhk9Mx1akaXaKub6j6ZBH8UiepE8edei4hy9EXnC+hudSnaHcj2z5tK4g+75XmdD4V/KUFU/fYZZQepv4DgcOMMu6TeJxgCXhwCywjazLQ48B7Adcx68HbDAE1uFvLgVsYgO78FBC0ASnxu9gsYVMCTa01zP/725krBhgxcrA4UeogxU6AitNDvyWvvM8neg0V0OYsbIUy5NxseNaeWplve8i0tlx4NhwIyt4xpR47i/vQsHc4YcUcOMj4HQAeDIAspT7YsnNrG66O1goGDI3XEixYs2VtVBFSrvt83giJ82HtOYDBxTFwMNU7YIzcE83Y0XhOVbkyjhHsSI7q7dzqQ4N4d97fSSrcPit9vGQN2GKd4cKjaa/l4BBukVNltU24rBp2HnXEXLyody2suHegaCrDcijPCA+xpbqQA+u/sxyHfmq+mtnNKdcfxzqkzOiWptSdKkno3Bv59FX70EtY/usB02+0IP6Dg8aoJigZIYWIZrM0QQkvj7UTOajWZN14gZzCP0ojCOXAVHi08B/w4BGMBeCBwcX1+GckDe056fMxT65/OKuckAuxgHmqxG8o3cZ7xi42L6cdwwdVhehSYyms8r8gI/5TVpd4DjUXs7qzijMXluQIhj3EffxJ6OUvdIFw9QZBYjrY2pYk/9sPmGvNOR8RKZOVzQ855GshHsri8yrPZFF/gkquicyV+AZI+40Qc5BDj1BjtzdDje2nbiOyy6TH4UcVzEDcoFE52aLBCUJmvhXnAtEg5Qs+cJMoAknDsMIhnXYYns7FhEMioKRg5PkUvZwiyWEQUrVeuyPhvxoUEJoLeediA9ostfOsJ0eUJ7/wM19jhzXK342nfBc9YnaMH1nxLol6yTWK8GvLO+63rbeUrwi/rBi5PKOF4tYjhLCtXtHQsZ6RwXq8WUlVtc73iFTxs1CO5iiYK5dT7mrv6pbiYM2ly5vlltqv3DrvaTQF2JbfWbX/J9DDgPPm4lH+GVZJnj6oHjGSwE+/ttSbnd7WPGB5VpcbEXOMt1xzwswlYc5L5/gQHBXPq8v49B8Gt35lg3F3l1o6xTB/l3083ZET79CxO27xPYEWxVLobEwxTk4L4Cng98J7XSFaFqV0OuiazwzXdCwPiJyx7B9fjtBrK1qvFEBpC4vGn3ci8Ll8bPP2pSP387Sxb8=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="440" y="40" width="1080" height="640" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <path d="M 210 220 L 980 220 L 980 470 L 615 470 L 595 500 L 595 470 L 210 470 Z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="all"/>
+        <path d="M 40 250 C 40 236.67 160 236.67 160 250 L 160 310 C 160 323.33 40 323.33 40 310 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 40 250 C 40 260 160 260 160 250 M 40 255 C 40 265 160 265 160 255 M 40 260 C 40 270 160 270 160 260" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="0" y="320" width="200" height="80" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 198px; height: 1px; padding-top: 360px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 30px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Docker
+                                <br/>
+                                リポジトリ
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="100" y="369" fill="#000000" font-family="Helvetica" font-size="30px" text-anchor="middle">
+                    Docker...
+                </text>
+            </switch>
+        </g>
+        <path d="M 120 200 L 182 200 L 200 218 L 200 280 L 120 280 L 120 200 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 182 200 L 182 218 L 200 218 Z" fill-opacity="0.05" fill="#000000" stroke="none" pointer-events="all"/>
+        <path d="M 182 200 L 182 218 L 200 218" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 520 240 L 582 240 L 600 258 L 600 320 L 520 320 L 520 240 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 582 240 L 582 258 L 600 258 Z" fill-opacity="0.05" fill="#000000" stroke="none" pointer-events="all"/>
+        <path d="M 582 240 L 582 258 L 600 258" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="210" y="250" width="230" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 265px; margin-left: 211px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ①docker imge pull
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="325" y="272" fill="#000000" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    ①docker imge pull
+                </text>
+            </switch>
+        </g>
+        <path d="M 190 290 L 503.63 290" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 508.88 290 L 501.88 293.5 L 503.63 290 L 501.88 286.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="610" y="250" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 268px; height: 1px; padding-top: 265px; margin-left: 611px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ②docker container create
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="745" y="272" fill="#000000" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    ②docker container create
+                </text>
+            </switch>
+        </g>
+        <rect x="920" y="240" width="160" height="130" rx="19.5" ry="19.5" fill="#e51400" stroke="#000000" stroke-width="4" stroke-dasharray="12 12" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 305px; margin-left: 921px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 30px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Docker
+                                <br style="font-size: 30px"/>
+                                コンテナ
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1000" y="314" fill="#ffffff" font-family="Helvetica" font-size="30px" text-anchor="middle">
+                    Docker...
+                </text>
+            </switch>
+        </g>
+        <path d="M 610 290 L 903.63 290" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 908.88 290 L 901.88 293.5 L 903.63 290 L 901.88 286.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1000" y="220" width="110" height="50" rx="7.5" ry="7.5" fill="#647687" stroke="#314354" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 245px; margin-left: 1001px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                停止中
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1055" y="252" fill="#ffffff" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    停止中
+                </text>
+            </switch>
+        </g>
+        <rect x="920" y="520" width="160" height="130" rx="19.5" ry="19.5" fill="#0050ef" stroke="#000000" stroke-width="2" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 585px; margin-left: 921px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 30px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Docker
+                                <br style="font-size: 30px"/>
+                                コンテナ
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1000" y="594" fill="#ffffff" font-family="Helvetica" font-size="30px" text-anchor="middle">
+                    Docker...
+                </text>
+            </switch>
+        </g>
+        <rect x="1000" y="500" width="110" height="50" rx="7.5" ry="7.5" fill="#647687" stroke="#314354" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 525px; margin-left: 1001px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                稼働中
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1055" y="532" fill="#ffffff" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    稼働中
+                </text>
+            </switch>
+        </g>
+        <path d="M 960 400 L 960 483.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 960 488.88 L 956.5 481.88 L 960 483.63 L 963.5 481.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1040 490 L 1040 406.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1040 401.12 L 1043.5 408.12 L 1040 406.37 L 1036.5 408.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="700" y="400" width="260" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 258px; height: 1px; padding-top: 415px; margin-left: 701px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ③docker container start
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="830" y="422" fill="#000000" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    ③docker container start
+                </text>
+            </switch>
+        </g>
+        <rect x="1040" y="450" width="250" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 248px; height: 1px; padding-top: 465px; margin-left: 1041px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ④docker container stop
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1165" y="472" fill="#000000" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    ④docker container stop
+                </text>
+            </switch>
+        </g>
+        <rect x="720" y="90" width="110" height="50" rx="7.5" ry="7.5" fill="#647687" stroke="#314354" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 115px; margin-left: 721px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                削除
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="775" y="122" fill="#ffffff" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    削除
+                </text>
+            </switch>
+        </g>
+        <rect x="490" y="70" width="190" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 188px; height: 1px; padding-top: 85px; margin-left: 491px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ⑥docker imge rm
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="585" y="92" fill="#000000" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    ⑥docker imge rm
+                </text>
+            </switch>
+        </g>
+        <path d="M 560 220 L 560 120 Q 560 110 570 110 L 703.63 110" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 708.88 110 L 701.88 113.5 L 703.63 110 L 701.88 106.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1120" y="250" width="270" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 268px; height: 1px; padding-top: 265px; margin-left: 1121px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ⑤docker container rm
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1255" y="272" fill="#000000" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    ⑤docker container rm
+                </text>
+            </switch>
+        </g>
+        <rect x="1400" y="270" width="110" height="50" rx="7.5" ry="7.5" fill="#647687" stroke="#314354" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 295px; margin-left: 1401px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                削除
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1455" y="302" fill="#ffffff" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    削除
+                </text>
+            </switch>
+        </g>
+        <path d="M 1090 290 L 1383.63 290" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1388.88 290 L 1381.88 293.5 L 1383.63 290 L 1381.88 286.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <image x="396.9" y="-0.5" width="82.6" height="104.7" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MSA4OS42Ij48ZyBmaWxsPSJub25lIiBzdHJva2U9IiM2MjYzNjYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTI0LjMgMzkuMjQybDQ1LjItMjR2NDguOWwtNDUuMSAyNHoiLz48cGF0aCBkPSJNMS41IDI1LjQ0Mmw0NS4yLTIzLjkgMjIuOCAxMy43LTQ1LjIgMjR6Ii8+PHBhdGggZD0iTTI0LjMgMzkuMjQybC4xIDQ4LjktMjIuOS0xMy43di00OXoiLz48L2c+PHBhdGggZD0iTTI0LjMgMzkuMmw0NS4yLTI0djQ5TDI0LjQgODguMXoiIGZpbGw9IiM4OThiOGUiLz48cGF0aCBkPSJNMS41IDI1LjVsNDUuMi0yNCAyMi44IDEzLjctNDUuMiAyNHoiIGZpbGw9IiNiYmJkYmYiLz48cGF0aCBkPSJNMjQuMyAzOS4ybC4xIDQ4LjlMMS41IDc0LjRWMjUuNXoiIGZpbGw9IiNiM2I1YjciLz48cGF0aCBkPSJNMi4yIDI1LjVsMjIuMyAxMy40djQ5IiBmaWxsPSJub25lIiBzdHJva2U9IiNkZmUwZGYiIHN0cm9rZS13aWR0aD0iLjc1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMjEuMyA0OS4zTDQgMzguOXYtNi41bDE3LjMgMTAuNHptMCA2LjJMNCA0NS4xdi0zLjdsMTcuMyAxMC40em0wIDE5LjJMNCA2NC4zdi0xLjdMMjEuMyA3M3ptMCAzLjhMNCA2OC4xdi0xLjdsMTcuMyAxMC40em0wIDRMNCA3Mi4xdi0xLjdsMTcuMyAxMC40eiIgZmlsbD0iI2ZlZmVmZSIvPjwvc3ZnPg=="/>
+        <rect x="450" y="500" width="310" height="70" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 308px; height: 1px; padding-top: 535px; margin-left: 451px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 23px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ①②③の一連の流れが
+                                <br/>
+                                docker container run
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="605" y="542" fill="#000000" font-family="Helvetica" font-size="23px" text-anchor="middle">
+                    ①②③の一連の流れが&#xa;docker container run
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
