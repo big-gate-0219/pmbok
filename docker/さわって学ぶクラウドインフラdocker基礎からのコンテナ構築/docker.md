@@ -209,12 +209,21 @@ $ docker run --rm --volumes-from db01 -v "$PWD":/dest busybox tar czf /dest/back
 
 ## データボリュームコンテナ
 
+```sh
+$ docker volume create my-volume
+$ docker container create --name db01 -v my-volume:/var/lib/mysql busybox
+$ docker container run -rm --name volume-from db01 mysql:5.7
+```
+
+![](img/volume-data-volume-container.drawio.svg)
+
+---
+## データボリュームコンテナを使ったバックアップ
+
+
 必要なディレクトリだけをマウントしただけのコンテナ（データボリュームコンテナ）を使ってのバックアップ。
 
-```sh
-$ docker 
-$ docker run --rm --volumes-from db01 -v "$PWD":/dest busybox tar czf /dest/backup.tar.gz -C /var/lib/mysql .
-```
+![](img/volume-data-volume-backup.drawio.svg)
 
 ---
 ## mountオプションを使ったマウント
@@ -337,7 +346,6 @@ $ docker network inspect my-docker-net
 - 新しく作成したDokerネットワークは名前を使った通信ができる。
   - `-net`オプションを使ってネットワークを指定した場合は、Dockerが用意するDNSに情報が登録される。
   - `docker network connect`で接続した場合もDockerが用意するDNSに情報が登録される。
-    - 
 
 ---
 ## hostネットワーク
